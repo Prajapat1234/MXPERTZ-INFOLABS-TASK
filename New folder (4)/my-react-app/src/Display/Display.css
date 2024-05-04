@@ -1,0 +1,65 @@
+#DisplayMain {
+  /* border: 1px solid red; */
+  display: grid;
+  background-color: rgb(9, 9, 65);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 1rem;
+  /* border-radius: 10rem 0; */
+  padding-top: 1rem;
+}
+
+#PreviousNext {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 70rem;
+  background-color: rgb(9, 9, 65);
+}
+#PreviousNext IconButton{
+  color: white;
+
+}
+
+#HeadingLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+#ProgressButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+#ProgressButtons button {
+  padding: 0.7rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 0.6rem;
+  font-weight: bold;
+  font-size: medium;
+  width: fit-content;
+  border-radius: 2rem;
+  text-transform: none;
+}
+
+#Progress {
+  background-color: rgb(241, 241, 18);
+}
+#Completed {
+  background-color: rgb(18, 232, 29);
+}
+
+#New {
+  background: linear-gradient(to right, rgba(4, 70, 141, 0.5) 20%, #38c7ff 50%);
+}
+#Clear {
+  background: linear-gradient(to right, rgba(4, 70, 141, 0.5) 20%, #38c7ff 50%);
+}
